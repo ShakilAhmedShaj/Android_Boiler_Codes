@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Add user"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+
+        />
+
+    <EditText
+        android:id="@+id/name_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+
+        />
+
+    <EditText
+        android:id="@+id/email_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+
+        />
+
+    <Button
+        android:id="@+id/save_addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+
+        android:text="SAVE" />
+
+    <TextView
+        android:id="@+id/id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="111dp"
+        android:text="User ID"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="Name"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/email_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="Email"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+</FrameLayout>
